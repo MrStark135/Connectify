@@ -1,6 +1,3 @@
 node_modules
-package.json
-package-lock.json
 chat app.code-workspace
 test.rest
-.env
