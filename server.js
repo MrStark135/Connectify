@@ -1,5 +1,5 @@
 // load env vars
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') require('dotenv').parse();
 const host = process.env.HOST;
 const port = process.env.PORT;
 const dbName = process.env.DATABASE;
