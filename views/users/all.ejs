@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Users</title>
+	</head>
+	<body>
+		<table border="2px">
+			<% locals.users.forEach((value, index, array) => { %>
+				<tr>
+					<td>name: <%= value.name %></td>
+					<td>email: <%= value.email %></td>
+					<td>password: <%= value.password %></td>
+				</tr>
+			<% }) %>
+		</table>
+	</body>
+</html>
