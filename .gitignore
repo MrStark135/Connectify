@@ -1,3 +1,4 @@
 node_modules
 chat app.code-workspace
 test.rest
+.env
